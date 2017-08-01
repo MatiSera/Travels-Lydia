@@ -306,3 +306,37 @@ img{
     height: 236px;
 }
 /*COLLAPSE ALL IMAGES*/
+
+
+/*responsive style*/
+
+
+@media (min-width: 992px){
+  .travelPack{
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 5%; 
+  }
+  .secCountry{
+    width: 91.1%;
+    margin-left: 7%;
+  } 
+  .list-countries{
+    margin-bottom: 6%;
+  }
+  #imgCountry-4 {
+    width: 245px;
+  }
+  .navbar-nav {
+    margin-left: 25%;
+  }
+  .navbar-form {
+    margin-left: 25%;
+  }
+  #imgContriesId-1{
+    margin-left: -1px !important;
+  }
+  #imgContriesId-2{
+    margin-left: -12px !important;
+  }
+}
