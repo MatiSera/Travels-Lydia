@@ -56,6 +56,8 @@ function asiaCountries(){
 
 
 
+
+
 function showAmericaCountries(){
     $("#america-countries").fadeIn("slow")
     document.getElementById("all-countries").style.display = "none";
