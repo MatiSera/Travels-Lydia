@@ -153,7 +153,11 @@ li.dropdown:hover > .dropdown-menu {
         border-top:0 none;
     } 
 }
-
+/*carousel style*/
+.carousel-caption{
+	font-family: 'Allerta', sans-serif;
+	color: #17202A;
+}
 
 
 
@@ -216,9 +220,11 @@ img{
 }
 
 /*Countries sector*/
+
 .country-sector{
 	background: #f2f5f7;
 	text-align: center;
+	margin-top: 100px
 	
 	
 }
@@ -309,13 +315,17 @@ img{
 
 
 /*responsive style*/
-
+#about-position{
+	margin-top: 32px;
+    padding-bottom: 80px; 
+}
 
 @media (min-width: 1200px)  {
   .travelPack{
     width: 60%;
     margin-left: 20%;
-    margin-bottom: 5%; 
+    margin-bottom: 5%;
+
   }
   .secCountry{
     width: 91.1%;
@@ -385,3 +395,201 @@ img{
 .text a{
 	text-decoration: none;
 }
+/*about us*/
+.container {
+    position: relative;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 76px;
+    font-family: 'Zilla Slab Highlight', cursive;
+    color: #080808;
+}
+
+#fireworks { 
+    width: 100%;
+    height: auto;
+    -webkit-filter: opacity(50%);filter: opacity(50%);
+    
+}
+#two{
+	position: absolute;
+    top: 66%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 76px;
+    font-family: 'Zilla Slab Highlight', cursive;
+    color: #080808;
+}
+.weAre{
+	margin-top: 58px;
+}
+.weAre p{
+	font-family: 'Bellefair', serif;
+	font-size: 34px;
+}
+.weAre h4{
+	font-family: 'Abril Fatface', cursive;
+	font-size: 39px;
+    margin-left: 111px;
+}
+/*social network*/
+.second-block{
+	height: 500px;
+}
+#style-2::-webkit-scrollbar-track{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+#style-2::-webkit-scrollbar{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+#style-2::-webkit-scrollbar-thumb{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #e1e1e1;
+}
+header
+{
+	font-family: 'Lobster', cursive;
+	text-align: center;
+	font-size: 25px;	
+}
+
+#info
+{
+	font-size: 18px;
+	color: #555;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+a{
+	color: #074E8C;
+}
+
+.scrollbar
+{
+	margin-left: 0px;
+	float: left;
+	height: 450px;
+	width: 100%;
+	background: #F5F5F5;
+	overflow-y: scroll;
+	margin-bottom: 25px;
+}
+
+.force-overflow
+{
+	min-height: 450px;
+}
+
+#wrapper
+{
+	text-align: center;
+	width: 500px;
+	margin: auto;
+}
+
+/*footer*/
+.global-footer{
+	padding-top: 5%;
+}
+.footer{
+	background-color: #191c20;
+	height: 500px;
+}
+.over{
+    float: left;
+    width: 70px;
+    height: 70px;
+}
+h5{
+	color: white;
+}
+.popular-text a{
+	text-decoration: none;
+	text-decoration-line: none;
+}
+.popular-text{
+    
+    font-size: 18px;
+    margin-right: 0px;
+    margin-left: 82px;
+    margin-top: -6px;
+}
+.list-popular{
+	list-style-type: none;
+}
+.tag-list{
+	display: inline-block;
+	list-style-type: none;
+
+}
+.block{
+	display: inline-block;
+}
+.button{
+	background-color: black;
+	border-color: black;
+    color: white;
+
+
+}
+.button:hover{
+	
+	background-color: #5DADE2
+}
+.elsewhere a{
+	text-decoration: none;
+	text-decoration-line: none;
+}
+.team a{
+	text-decoration: none;
+	text-decoration-line: none;
+}
+/*styles of icons*/
+.fa-facebook-square{
+    color: #4470cf;
+}
+
+.fa-twitter-square{
+	color: #5daed5;
+}
+.fa-linkedin-square{
+	color: #3393c1;
+}
+.fa-instagram{
+	color: #6C3483;
+}
+/*get in touch*/
+.touch p{
+	color:white;
+}
+.data{
+	color:#6b6868;
+}
+.sub-footer{
+    margin-top: 150px;
+    background-color: black;
+    height: 74px;
+}
+.data ul{
+	padding-left: 0px !important;
+	padding-right: 40px !important;
+}
+.list-social{
+	list-style-type: none;
+}
+ .scrollbar{
+overflow: auto; /*for horizontal and vertical scroll bars */
+}
+
